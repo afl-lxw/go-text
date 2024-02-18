@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-text/example/sync"
+	"go-text/example"
 )
 
 func main() {
@@ -13,5 +13,7 @@ func main() {
 	//example.ContextMain()
 	//example.SyscallMain()
 	//sync.CondMain()
-	sync.OnceMain()
+	//sync.OnceMain()
+	//example.CountByCommunicating()
+	example.Channel1Main()
 }
